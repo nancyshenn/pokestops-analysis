@@ -1,20 +1,72 @@
-This is your group repo for your final project for COGS108.
+# 📍 PokéStops Analysis: Spatial Patterns & Accessibility
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+![Python](https://img.shields.io/badge/Python-Used-blue)
+![Data Analysis](https://img.shields.io/badge/Type-Data%20Analysis-orange)
+![Visualization](https://img.shields.io/badge/Visualization-Maps%20%26%20EDA-green)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+---
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+## 📌 Overview
+This project analyzes the **distribution and accessibility of PokéStops** in Pokémon GO using spatial data analysis and visualization techniques.
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+PokéStops are essential in-game locations that provide resources to players. Their placement can significantly impact gameplay experience, especially in terms of **fairness, accessibility, and geographic bias**.
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+This project explores:
+- How PokéStops are distributed geographically  
+- Whether certain areas are over/underrepresented  
+- What patterns exist in urban vs rural regions  
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+---
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+## 🎯 Objectives
+- Analyze spatial distribution of PokéStops  
+- Identify **geographic inequalities** in placement  
+- Explore clustering patterns and density  
+- Visualize PokéStop locations using maps and plots  
+- Derive insights about accessibility and game design  
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+---
+
+## 📊 Results at a Glance
+
+- 🗺️ **Urban Concentration:** PokéStops are heavily clustered in urban areas  
+- 📉 **Rural Gaps:** Sparse distribution in rural regions limits accessibility  
+- 🔗 **Clustering Behavior:** Stops tend to form dense clusters rather than uniform spacing  
+- 📊 **Inequality in Access:** Players in different regions experience unequal resource availability  
+- 🎮 **Gameplay Impact:** Distribution directly affects player progression and engagement  
+
+👉 These findings highlight how **real-world geographic bias translates into digital game experiences**.
+
+---
+
+## 🔍 Key Analyses
+
+### 1. Spatial Distribution Mapping
+- Visualized PokéStops on geographic maps  
+- Identified high-density vs low-density regions  
+
+### 2. Density & Clustering Analysis
+- Examined clustering behavior of PokéStops  
+- Compared distribution across different regions  
+
+### 3. Accessibility Insights
+- Evaluated how easily players can access PokéStops  
+- Highlighted disparities between locations  
+
+### 4. Data Visualization
+- Created plots and maps to communicate findings clearly  
+- Used visual storytelling to highlight inequities  
+
+---
+
+## 🗂️ Project Structure
+
+```
+pokestops-analysis/
+├── data/                     # Dataset(s) of PokéStop locations
+├── notebooks/               # Jupyter notebooks for analysis
+├── scripts/                 # Data processing / analysis scripts
+├── visualizations/          # Generated plots and maps
+└── README.md                # Project documentation
+```
